@@ -1,0 +1,107 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 2, 2022, 10:22:47 PM
+    Author     : 84961
+*/
+
+body{
+    background-image: linear-gradient(yellow , green);
+}
+/* ------------------Header------------------ */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navbar li{ 
+    display: inline;
+    margin: 0px 10px;
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header_account_cart{
+    display: flex;
+    align-items: center;
+}
+.item_header_account_cart{
+    margin: 0 5px;
+}
+.banner img{
+width: 100%;
+height: 100%;
+}
+/* ------------------Content------------------ */
+.item_new{
+    display: flex;
+
+}
+.item_top{
+display: flex;
+}
+.item_new_content{
+    width: calc(100%/4*12);
+    height: 400px;
+    margin: 0 10px;
+
+}
+.item_top_content{
+    width: calc(100%/2*12);
+    height: 200px;
+    margin: 0 10px;
+}
+h2{
+    text-align: center;
+}
+.item_new_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+     border-radius: 5px;
+}
+.item_new_text_add_cart button{  
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+}
+.item_new_text_add_cart a{
+     color: white;
+     text-decoration: none;
+}
+/* ------------------footer------------------ */
+.footer{
+    background-color: black;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+}
+.footer_item{
+margin-right: 400px;
+}

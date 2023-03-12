@@ -1,0 +1,21 @@
+    /*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 17, 2022, 10:07:07 AM
+    Author     : 84961
+*/
+.detail_cart{
+    display: flex;
+    justify-content: center;
+}
+.donhang, .thongtinmuahang{
+    background-color: white;
+    width: 40%;
+    height: fit-content;
+    border-radius: 5px;
+}
+.thongtinmuahang{
+    width: 20%;
+}

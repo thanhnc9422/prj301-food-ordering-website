@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 5, 2022, 9:06:10 PM
+    Author     : 84961
+*/
+
+body{
+    background-image: linear-gradient(yellow , green);
+   height: 1000px;
+}
+.form_login{
+display: flex;
+background-color: white;
+border-radius: 5px;
+width: 400px;
+height: 200px;
+margin: auto;
+margin-top: 200px;
+justify-content: center;
+align-items: center;
+
+}
+.form_login input{
+margin: 2px;
+}
+.new_account{
+    margin-top: 2px;
+    padding-top: 2px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.icon_food{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.icon_login{
+    width: 15%;
+}
+.icon_login img{
+    width: 100%;
+}
